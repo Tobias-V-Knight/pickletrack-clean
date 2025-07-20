@@ -1,27 +1,21 @@
-# Core AI/ML Dependencies
-ultralytics==8.0.196         # YOLOv8 object detection
-torch>=2.0.0                 # PyTorch deep learning framework
-torchvision>=0.15.0          # PyTorch computer vision utilities
-opencv-python==4.8.1.78      # Computer vision and image processing
+ # Core AI/ML Dependencies (Python 3.13 compatible)
+  ultralytics==8.0.196
+  torch>=2.0.0
+  torchvision>=0.15.0
+  opencv-python-headless==4.8.1.78
 
-# Data Processing
-numpy==1.24.3                # Numerical computing
-pandas==2.0.3                # Data analysis and manipulation
-shapely==2.0.1               # Geometric operations for zone mapping
-scikit-learn==1.3.0          # Machine learning utilities
+  # Data Processing (Updated for Python 3.13)
+  numpy>=1.26.0
+  pandas>=2.0.0
+  shapely==2.0.1
+  scikit-learn>=1.3.0
 
-# Visualization & Dashboard
-streamlit==1.28.1            # Interactive web dashboard framework
-plotly==5.17.0               # Interactive plotting and visualization
-matplotlib==3.7.2            # Static plotting and visualization
-seaborn==0.12.2              # Statistical data visualization
+  # Visualization & Dashboard
+  streamlit>=1.28.0
+  plotly>=5.17.0
+  matplotlib>=3.7.0
+  seaborn>=0.12.0
 
-# Configuration & Utilities
-pyyaml==6.0.1                # YAML configuration file support
-tqdm==4.66.1                 # Progress bars for long operations
-
-# Development & Testing (Optional)
-pytest==7.4.2                # Unit testing framework
-pytest-cov==4.1.0            # Test coverage reporting
-black==23.9.1                # Code formatting
-flake8==6.1.0                # Code linting and style checking
+  # Configuration & Utilities
+  pyyaml>=6.0.0
+  tqdm>=4.66.0
