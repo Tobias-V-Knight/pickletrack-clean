@@ -1,0 +1,181 @@
+{
+  "video_path": "data/videos/demo_session.mp4",
+  "session_info": {
+    "session_name": "Demo Training Session",
+    "total_frames": 1800,
+    "zones_detected": 3,
+    "processing_date": "2025-01-20",
+    "duration": "60 seconds",
+    "player": "Demo Player"
+  },
+  "statistics": {
+    "total_shots": 15,
+    "shots_in_bounds": 12,
+    "shots_out_of_bounds": 3,
+    "missed_shots": 5,
+    "successful_hits": 7,
+    "total_bounces": 18,
+    "avg_ball_speed": 42.5,
+    "shot_accuracy": 46.7
+  },
+  "zone_performance": {
+    "target_zone_deep": {
+      "attempts": 8,
+      "hits": 5,
+      "misses": 2,
+      "out_of_bounds": 1,
+      "accuracy": 62.5,
+      "avg_speed": 45.2,
+      "zone_area": 35.5
+    },
+    "target_zone_cross": {
+      "attempts": 4,
+      "hits": 2,
+      "misses": 2,
+      "out_of_bounds": 0,
+      "accuracy": 50.0,
+      "avg_speed": 38.8,
+      "zone_area": 28.2
+    },
+    "target_zone_middle": {
+      "attempts": 3,
+      "hits": 0,
+      "misses": 1,
+      "out_of_bounds": 2,
+      "accuracy": 0.0,
+      "avg_speed": 44.1,
+      "zone_area": 22.8
+    }
+  },
+  "shots": [
+    {
+      "shot_id": 1,
+      "start_position": [5.2, 18.5],
+      "end_position": [38.1, 8.2],
+      "distance": 35.8,
+      "duration": 1.2,
+      "avg_speed": 45.8,
+      "bounces": 2,
+      "in_bounds": true,
+      "outcome": "successful_hit",
+      "target_zone": "target_zone_deep",
+      "result": "hit",
+      "confidence": 0.92,
+      "trajectory": [
+        {"frame": 45, "timestamp": 1.5, "image_coords": [145, 445], "court_coords": [5.2, 18.5], "confidence": 0.89},
+        {"frame": 52, "timestamp": 1.73, "image_coords": [425, 385], "court_coords": [18.5, 15.2], "confidence": 0.94},
+        {"frame": 58, "timestamp": 1.93, "image_coords": [680, 295], "court_coords": [28.3, 11.8], "confidence": 0.91},
+        {"frame": 65, "timestamp": 2.17, "image_coords": [890, 215], "court_coords": [38.1, 8.2], "confidence": 0.87}
+      ]
+    },
+    {
+      "shot_id": 2,
+      "start_position": [6.1, 17.8],
+      "end_position": [35.5, 12.1],
+      "distance": 31.2,
+      "duration": 1.0,
+      "avg_speed": 31.2,
+      "bounces": 1,
+      "in_bounds": true,
+      "outcome": "missed_shot",
+      "target_zone": null,
+      "result": "miss",
+      "confidence": 0.78,
+      "trajectory": [
+        {"frame": 120, "timestamp": 4.0, "image_coords": [155, 428], "court_coords": [6.1, 17.8], "confidence": 0.82},
+        {"frame": 125, "timestamp": 4.17, "image_coords": [380, 368], "court_coords": [16.8, 14.5], "confidence": 0.86},
+        {"frame": 130, "timestamp": 4.33, "image_coords": [645, 318], "court_coords": [27.2, 12.8], "confidence": 0.84},
+        {"frame": 135, "timestamp": 4.5, "image_coords": [825, 295], "court_coords": [35.5, 12.1], "confidence": 0.79}
+      ]
+    },
+    {
+      "shot_id": 3,
+      "start_position": [4.8, 19.2],
+      "end_position": [32.4, 6.8],
+      "distance": 30.5,
+      "duration": 0.9,
+      "avg_speed": 33.9,
+      "bounces": 1,
+      "in_bounds": true,
+      "outcome": "successful_hit",
+      "target_zone": "target_zone_cross",
+      "result": "hit",
+      "confidence": 0.88,
+      "trajectory": [
+        {"frame": 180, "timestamp": 6.0, "image_coords": [135, 462], "court_coords": [4.8, 19.2], "confidence": 0.91},
+        {"frame": 185, "timestamp": 6.17, "image_coords": [365, 398], "court_coords": [15.2, 16.1], "confidence": 0.89},
+        {"frame": 190, "timestamp": 6.33, "image_coords": [598, 335], "court_coords": [24.8, 13.2], "confidence": 0.92},
+        {"frame": 195, "timestamp": 6.5, "image_coords": [758, 175], "court_coords": [32.4, 6.8], "confidence": 0.85}
+      ]
+    },
+    {
+      "shot_id": 4,
+      "start_position": [5.5, 18.1],
+      "end_position": [46.2, 15.5],
+      "distance": 40.9,
+      "duration": 1.1,
+      "avg_speed": 37.2,
+      "bounces": 0,
+      "in_bounds": false,
+      "outcome": "out_of_bounds",
+      "target_zone": null,
+      "result": "out_of_bounds",
+      "confidence": 0.71,
+      "trajectory": [
+        {"frame": 240, "timestamp": 8.0, "image_coords": [148, 435], "court_coords": [5.5, 18.1], "confidence": 0.78},
+        {"frame": 245, "timestamp": 8.17, "image_coords": [415, 385], "court_coords": [18.2, 15.2], "confidence": 0.82},
+        {"frame": 250, "timestamp": 8.33, "image_coords": [725, 345], "court_coords": [31.8, 13.8], "confidence": 0.76},
+        {"frame": 255, "timestamp": 8.5, "image_coords": [1025, 385], "court_coords": [46.2, 15.5], "confidence": 0.69}
+      ]
+    },
+    {
+      "shot_id": 5,
+      "start_position": [6.2, 17.5],
+      "end_position": [39.8, 9.1],
+      "distance": 35.1,
+      "duration": 1.3,
+      "avg_speed": 27.0,
+      "bounces": 2,
+      "in_bounds": true,
+      "outcome": "successful_hit",
+      "target_zone": "target_zone_deep",
+      "result": "hit",
+      "confidence": 0.95,
+      "trajectory": [
+        {"frame": 300, "timestamp": 10.0, "image_coords": [158, 421], "court_coords": [6.2, 17.5], "confidence": 0.93},
+        {"frame": 308, "timestamp": 10.27, "image_coords": [445, 365], "court_coords": [19.8, 14.5], "confidence": 0.96},
+        {"frame": 315, "timestamp": 10.5, "image_coords": [695, 285], "court_coords": [30.5, 11.2], "confidence": 0.94},
+        {"frame": 322, "timestamp": 10.73, "image_coords": [925, 198], "court_coords": [39.8, 9.1], "confidence": 0.91}
+      ]
+    }
+  ],
+  "zones_defined": {
+    "target_zone_deep": {
+      "coordinates": [[35, 5], [44, 5], [44, 12], [35, 12]],
+      "cone_count": 4,
+      "area": 63.0,
+      "color": [255, 0, 0],
+      "description": "Deep cross-court target"
+    },
+    "target_zone_cross": {
+      "coordinates": [[28, 8], [36, 8], [36, 15], [28, 15]],
+      "cone_count": 4,
+      "area": 56.0,
+      "color": [0, 255, 0],
+      "description": "Cross-court placement"
+    },
+    "target_zone_middle": {
+      "coordinates": [[18, 12], [26, 12], [26, 18], [18, 18]],
+      "cone_count": 4,
+      "area": 48.0,
+      "color": [0, 0, 255],
+      "description": "Middle court target"
+    }
+  },
+  "recommendations": [
+    "Focus on target_zone_middle - 0% accuracy needs improvement",
+    "Great accuracy in target_zone_deep (62.5%) - keep practicing this pattern",
+    "Work on shot consistency - 3 out of bounds shots indicate power control issues",
+    "Average ball speed of 42.5 ft/s is good for training pace"
+  ]
+}

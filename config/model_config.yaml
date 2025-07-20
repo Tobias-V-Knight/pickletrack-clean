@@ -1,0 +1,9 @@
+ball_detection:
+  model: "yolov8n.pt"
+  confidence: 0.5
+  iou_threshold: 0.45
+
+cone_detection:
+  model: "yolov8n.pt"
+  confidence: 0.6
+  iou_threshold: 0.5 

@@ -1,0 +1,208 @@
+{
+  "video_path": "data/videos/session2_clear_setup.mp4.MP4",
+  "statistics": {
+    "total_shots": 2,
+    "shots_in_bounds": 2,
+    "shots_out_of_bounds": 0,
+    "missed_shots": 2,
+    "successful_hits": 0,
+    "total_bounces": 0,
+    "avg_ball_speed": 0.2393177383333559,
+    "shot_accuracy": 0.0
+  },
+  "shots": [
+    {
+      "start_position": [
+        43.77901785714286,
+        3.287037037037037
+      ],
+      "end_position": [
+        43.68080357142857,
+        3.3796296296296298
+      ],
+      "distance": 0.13497938406062746,
+      "duration": 0.4666666666666667,
+      "avg_speed": 0.28924153727277313,
+      "bounces": 0,
+      "in_bounds": true,
+      "outcome": "missed_shot",
+      "trajectory": [
+        {
+          "frame": 3,
+          "timestamp": 0.1,
+          "image_coords": [
+            1083.5,
+            251.0
+          ],
+          "court_coords": [
+            43.77901785714286,
+            3.287037037037037
+          ],
+          "confidence": 0.3485
+        },
+        {
+          "frame": 4,
+          "timestamp": 0.13333333333333333,
+          "image_coords": [
+            1083.0,
+            251.0
+          ],
+          "court_coords": [
+            43.754464285714285,
+            3.287037037037037
+          ],
+          "confidence": 0.3305
+        },
+        {
+          "frame": 12,
+          "timestamp": 0.4,
+          "image_coords": [
+            1082.0,
+            252.5
+          ],
+          "court_coords": [
+            43.70535714285714,
+            3.3564814814814814
+          ],
+          "confidence": 0.3665
+        },
+        {
+          "frame": 16,
+          "timestamp": 0.5333333333333333,
+          "image_coords": [
+            1081.5,
+            253.0
+          ],
+          "court_coords": [
+            43.68080357142857,
+            3.3796296296296298
+          ],
+          "confidence": 0.3845
+        },
+        {
+          "frame": 17,
+          "timestamp": 0.5666666666666667,
+          "image_coords": [
+            1081.5,
+            253.0
+          ],
+          "court_coords": [
+            43.68080357142857,
+            3.3796296296296298
+          ],
+          "confidence": 0.3815
+        }
+      ]
+    },
+    {
+      "start_position": [
+        43.729910714285715,
+        3.287037037037037
+      ],
+      "end_position": [
+        43.729910714285715,
+        3.3564814814814814
+      ],
+      "distance": 0.0694444444444442,
+      "duration": 0.3666666666666667,
+      "avg_speed": 0.1893939393939387,
+      "bounces": 0,
+      "in_bounds": true,
+      "outcome": "missed_shot",
+      "trajectory": [
+        {
+          "frame": 69,
+          "timestamp": 2.3,
+          "image_coords": [
+            1082.5,
+            251.0
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.287037037037037
+          ],
+          "confidence": 0.334
+        },
+        {
+          "frame": 70,
+          "timestamp": 2.3333333333333335,
+          "image_coords": [
+            1082.5,
+            251.0
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.287037037037037
+          ],
+          "confidence": 0.334
+        },
+        {
+          "frame": 71,
+          "timestamp": 2.3666666666666667,
+          "image_coords": [
+            1082.5,
+            251.0
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.287037037037037
+          ],
+          "confidence": 0.334
+        },
+        {
+          "frame": 72,
+          "timestamp": 2.4,
+          "image_coords": [
+            1082.5,
+            251.0
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.287037037037037
+          ],
+          "confidence": 0.333
+        },
+        {
+          "frame": 76,
+          "timestamp": 2.533333333333333,
+          "image_coords": [
+            1083.5,
+            251.0
+          ],
+          "court_coords": [
+            43.77901785714286,
+            3.287037037037037
+          ],
+          "confidence": 0.3625
+        },
+        {
+          "frame": 79,
+          "timestamp": 2.6333333333333333,
+          "image_coords": [
+            1082.5,
+            252.5
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.3564814814814814
+          ],
+          "confidence": 0.362
+        },
+        {
+          "frame": 80,
+          "timestamp": 2.6666666666666665,
+          "image_coords": [
+            1082.5,
+            252.5
+          ],
+          "court_coords": [
+            43.729910714285715,
+            3.3564814814814814
+          ],
+          "confidence": 0.364
+        }
+      ]
+    }
+  ],
+  "frame_count": 300
+}

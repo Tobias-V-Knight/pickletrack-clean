@@ -1,0 +1,11 @@
+court_dimensions:
+  width: 44  # feet
+  height: 20  # feet
+
+zones:
+  deep_cross:
+    coordinates: [[35, 5], [44, 15]]
+    color: [255, 0, 0]
+  deep_middle:
+    coordinates: [[35, 15], [44, 25]]
+    color: [0, 255, 0] 
